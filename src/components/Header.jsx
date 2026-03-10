@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function Header() {
     return (
         <header>
@@ -25,7 +27,7 @@ export default function Header() {
                                 <a className="nav-link active" aria-current="page" href="#">MAIS VENDIDOS</a>
                             </li>
 
-                            <button className="login" type="submit"> LOGIN ADMIN </button>
+                            <Link to="/login" className="btn-login" type="submit" >LOGIN ADMIN</Link>
 
                         </ul>
                     </div>

@@ -52,9 +52,9 @@
 }
 
 
-.login {
+.btn-login {
   margin-right: 50px;
-  padding-top: 15px ;
+  padding: 15px 30px;
   border-radius: 25px;
   border: none;
   background-color: #0d2b45;
@@ -63,8 +63,9 @@
   cursor: pointer;
   transition: 0.3s;
   font-size: 11px;
+
 }
-.login:hover {
+.btn-login:hover {
   background-color: #123d63;
 }
 
@@ -245,4 +246,334 @@ select{
 .card span{
   color: #777;
   font-size: 14px;
+}
+
+.botao-catalogo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+.botao-catalogo button{
+  padding: 15px 40px;
+  border-radius: 40px;
+  border: 1px solid #0c2a4a;
+  background: transparent;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.botao-catalogo button:hover{
+  background: #0c2a4a;
+  color: white;
+}
+
+
+.footer{
+  background: #f6f7f8;
+  padding: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid #ddd;
+}
+
+.footer-conteudo{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.footer-esquerda{
+  max-width: 350px;
+}
+
+.footer-logo{
+  color: #0c2a4a;
+  font-size: 1.5rem;
+  letter-spacing: -0.05em;
+}
+
+.footer-esquerda p{
+  color: #6c7a89;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.icones{
+  display: flex;
+  gap: 10px;
+  justify-items: center;
+}
+
+.icones button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.footer-links{
+  display: flex;
+  gap: 80px;
+}
+
+.footer-links h4{
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #0c2a4a;
+  margin-bottom: 15px;
+}
+
+.footer-links a{
+  display: block;
+  margin-bottom: 10px;
+  color: #6c7a89;
+  cursor: pointer;
+}
+
+.footer-bottom{
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #8a97a6;
+}
+
+.login-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-card{
+  width: 350px;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.entrar{
+  text-align: center;
+  color: #0c2a4a;
+  font-size: 50px;
+}
+
+.subtitulo{
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label{
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.login-form input{
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.login-form button{
+  padding: 12px;
+  border: none;
+  background: #0c2a4a;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form button:hover{
+  background: #153d6b;
+}
+
+.registro{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.registro a{
+  color: #0c2a4a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cadastro-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadastro-card{
+  width: 380px;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.criar-conta{
+  text-align: center;
+  color: #0c2a4a;
+  font-size: 50px;
+}
+
+.subtitulo{
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.cadastro-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro-form label{
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.cadastro-form input{
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.cadastro-form button{
+  padding: 12px;
+  border: none;
+  background: #0c2a4a;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cadastro-form button:hover{
+  background: #163a63;
+}
+
+.login-link{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.login-link a{
+  color: #0c2a4a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+.catalogo-livros{
+  padding: 40px;
+  font-family: Arial;
+}
+
+.input{
+  margin: 10px;
+  padding: 8px;
+}
+
+.livros-bom{
+  margin-top: 20px;
+}
+
+.livro-top{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.livro-top img{
+  width: 250px;
+  border-radius: 10px;
+}
+
+
+
+
+.detalhes{
+  padding: 40px;
+  font-family: Arial;
+}
+
+.livro-detalhe{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.livro-detalhe img{
+  width: 300px;
+  border-radius: 10px;
+}
+
+.info-livro{
+  max-width: 500px;
+}
+
+.info-livro h1{
+  margin-bottom: 15px;
+}
+
+.info-livro p{
+  margin: 5px 0;
+}
+
+.info-livro h3{
+  margin-top: 20px;
+}
+
+.nao-encontrado{
+  text-align: center;
+  padding: 100px;
+  font-family: Arial;
+}
+
+.nao-encontrado h1{
+  font-size: 80px;
+  color: #17324d;
+}
+
+.nao-encontrado h2{
+  margin: 20px 0;
+}
+
+.nao-encontrado Link{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #17324d;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
 }
